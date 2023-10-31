@@ -1,0 +1,91 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+}
+
+.media.top-trending {
+    background-color: rgb(182, 136, 20);
+}
+
+.media:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media (max-width: 550px) {
+    .media {
+        width: 50%;
+    }
+}
+
+.poster {
+    border-radius: 10px;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+}
+
+.subtitle-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2px;
+}
+
+.subtitle {
+    padding-bottom: 3px;
+}
+
+
+.badge-circle .MuiBadge-badge {
+    color: white;
+    background-color: rgb(169, 135, 61);
+    border-radius: 50%;
+    font-size: 1rem;  /* Adjust based on your preference */
+    height: 30px;     /* Adjust based on your preference */
+    width: 30px;      /* Adjust based on your preference */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(
+        50% 0%, 
+        61% 35%, 
+        98% 35%, 
+        68% 57%, 
+        79% 91%, 
+        50% 70%, 
+        21% 91%, 
+        32% 57%, 
+        2% 35%, 
+        39% 35%
+    );
+}
+.dialog {
+    background-color: #282c34;
+    color: aliceblue;
+}
+
+.box{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35px;
+    font-family: "Montserrat",sans-serif;
+}

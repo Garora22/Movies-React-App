@@ -1,0 +1,42 @@
+*{
+  scroll-behavior: smooth;
+}
+.header{
+  top: 0;
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-family: sans-serif;
+  font-size: 4vw;
+  padding-bottom: 15px;
+  box-shadow: 0px 2.4px 5px black ;
+  color: white;
+  z-index: 100;
+}
+
+.App{
+  top: 5.8vw;
+  position: relative;
+  min-height: 100vh;
+  background-color: #39445a;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.pagetitle{
+  position: relative;
+  text-transform:uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
